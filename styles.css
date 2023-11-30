@@ -26,9 +26,13 @@
       height: auto;
       border-radius: 50%;
       }
-      footer {
-      text-align: center;
+      #about-me {
+        background-color: #fff; 
+        padding: 20px; 
       }
       a:hover {
-          text-decoration: underline;
+        text-decoration: underline;
+      }
+      footer {
+        text-align: center;
       }
