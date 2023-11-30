@@ -8,6 +8,7 @@
     justify-content: space-around; 
     width: 100%; 
   }
+  
   body {
       font-family: 'Arial', sans-serif;
       line-height: 1.6;
@@ -20,11 +21,21 @@
       text-align: center;  
       width: 100%;
       padding: 20px;
+      font-weight: bold
       }
       .profile-img {
       width: 200px;
       height: auto;
       border-radius: 50%;
+      }
+      nav a {
+        color: #33333;
+        text-decoration: none;
+        padding: 10px;
+        transition: text-decoration 0.3s; /* Add a smooth transition for the hover effect */
+      }
+      nav a:hover {
+        text-decoration: underline; /* Add underline on hover */
       }
       #about-me {
         background-color: #fff; 
@@ -39,6 +50,7 @@
         padding: 1;
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
       }
       #skills li {
         flex: 1;
@@ -60,11 +72,15 @@
         margin: 0 auto; /* Center the image horizontally */
         margin-bottom: 10px;
       }
+      #projects img:hover {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle box-shadow on hover */
+      }
       #projects ul {
         list-style: none;
         padding: 1;
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
       }
       #projects li {
         flex: 1; /* Flex properties for responsiveness */
@@ -111,3 +127,5 @@
       button:hover {
         background-color: #45a049;
       }
+      
+      
