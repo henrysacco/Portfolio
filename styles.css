@@ -4,27 +4,26 @@
   padding: 0;
   box-sizing: border-box;  
   }
-  nav {
+  nav { 
     display: flex;
     justify-content: space-around; 
     width: 100%; 
   }
-  
-  body {
+  body { /* Sets the Style of the Body Section */
       font-family: 'Arial', sans-serif;
       line-height: 1.6;
       padding: 20px;
       text-align: center;
       background-color: #f4f4f4;
       }
-      header {
+      header { /* Sets the Style of the Header */
       background-color: #fff; 
       text-align: center;  
       width: 100%;
       padding: 20px;
       font-weight: bold
       }
-      .profile-img {
+      .profile-img { /* Sets the Style of the Profile Picture, Cropped Round */
       width: 200px;
       height: auto;
       border-radius: 50%;
@@ -36,9 +35,9 @@
         transition: text-decoration 0.3s; /* Add a smooth transition for the hover effect */
       }
       nav a:hover {
-        text-decoration: underline; /* Add underline on hover */
+        text-decoration: underline; /* Add underline on hover in the header */
       }
-      #about-me {
+      #about-me { /* Creates a White Box Around the About Me Section */
         background-color: #fff; 
         padding: 20px; 
       }
@@ -52,14 +51,14 @@
         padding: 0;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: row; /* Sets Direction of the List */
       }
       #skills li {
         flex: 1;
         padding: 10px;
         border: 2px solid #6b5f5f; 
         margin: 50px;
-        text-align: center;
+        text-align: center; /* Sets Direction of the List */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
       #projects {
@@ -82,7 +81,7 @@
         padding: 1;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: row; /* Sets Direction of the List */
       }
       #projects li {
         flex: 1; /* Flex properties for responsiveness */
@@ -94,9 +93,9 @@
         overflow: hidden; /* Ensure content doesn't overflow the card */
       }
       footer {
-        text-align: center;
+        text-align: center; /* Centers the Footer */
       }
-      form {
+      form { /* Contact Form Style and Functionality */
         max-width: 500px;
         margin: 20px auto;
         padding: 20px;
@@ -104,12 +103,12 @@
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
-      label {
+      label { /* Contact Form Style and Functionality */
         display: block;
         margin-bottom: 8px;
       }
       input,
-      textarea {
+      textarea { /* Contact Form Style and Functionality */
         width: 100%;
         padding: 10px;
         margin-bottom: 16px;
@@ -117,7 +116,7 @@
         border-radius: 4px;
         box-sizing: border-box;
       }
-      button {
+      button { /* Contact Form Style and Functionality */
         background-color: #4caf50;
         color: #fff;
         padding: 10px 20px;
@@ -125,35 +124,35 @@
         border-radius: 4px;
         cursor: pointer;
       }
-      button:hover {
+      button:hover { /* Contact Form Style and Functionality */
         background-color: #45a049;
       }
-      @media screen and (max-width: 1200px) {
+      @media screen and (max-width: 1200px) { /* Sets the Content to Adjust Dependent on Screen Size */
         #skills li {
             flex-basis: calc(33.33% - 40px); /* Three items per row with margin */
         }
       }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 800px) { /* Sets the Content to Adjust Dependent on Screen Size */
         #skills li {
             flex-basis: calc(50% - 40px); /* Two items per row with margin */
         }
       }
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 600px) { /* Sets the Content to Adjust Dependent on Screen Size */
         #skills li {
             flex-basis: calc(100% - 40px); /* One item per row with margin */
         }
       }
-      @media screen and (max-width: 1200px) {
+      @media screen and (max-width: 1200px) { /* Sets the Content to Adjust Dependent on Screen Size */
         #projects li {
             flex-basis: calc(33.33% - 40px); /* Three items per row with margin */
         }
       }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 800px) { /* Sets the Content to Adjust Dependent on Screen Size */
         #projects li {
             flex-basis: calc(50% - 40px); /* Two items per row with margin */
         }
       }
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 600px) { /* Sets the Content to Adjust Dependent on Screen Size */
         #projects li {
             flex-basis: calc(100% - 40px); /* One item per row with margin */
         }
