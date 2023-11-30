@@ -44,10 +44,11 @@
       #skills {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center; /* Add: Center items on the main axis */
       }
       #skills ul {
         list-style: none;
-        padding: 1;
+        padding: 0;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -62,8 +63,8 @@
       }
       #projects {
         display: flex;
-        justify-content: space-around;
         flex-wrap: wrap;
+        justify-content: center; /* Add: Center items on the main axis */
       }
       #projects img {
         max-width: 50%;
