@@ -46,6 +46,34 @@
         border: 2px solid #6b5f5f; 
         margin: 50px;
         text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      #projects {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      #projects img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 5px;
+        margin: 0 auto; /* Center the image horizontally */
+        margin-bottom: 10px;
+      }
+      #projects ul {
+        list-style: none;
+        padding: 1;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #projects li {
+        flex: 1; /* Flex properties for responsiveness */
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden; /* Ensure content doesn't overflow the card */
       }
       footer {
         text-align: center;
