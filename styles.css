@@ -1,3 +1,4 @@
+/* Basic Reset */ 
 * {
   margin: 0; 
   padding: 0;
@@ -116,7 +117,6 @@
         border-radius: 4px;
         box-sizing: border-box;
       }
-      
       button {
         background-color: #4caf50;
         color: #fff;
@@ -128,5 +128,34 @@
       button:hover {
         background-color: #45a049;
       }
-      
+      @media screen and (max-width: 1200px) {
+        #skills li {
+            flex-basis: calc(33.33% - 40px); /* Three items per row with margin */
+        }
+      }
+      @media screen and (max-width: 800px) {
+        #skills li {
+            flex-basis: calc(50% - 40px); /* Two items per row with margin */
+        }
+      }
+      @media screen and (max-width: 600px) {
+        #skills li {
+            flex-basis: calc(100% - 40px); /* One item per row with margin */
+        }
+      }
+      @media screen and (max-width: 1200px) {
+        #projects li {
+            flex-basis: calc(33.33% - 40px); /* Three items per row with margin */
+        }
+      }
+      @media screen and (max-width: 800px) {
+        #projects li {
+            flex-basis: calc(50% - 40px); /* Two items per row with margin */
+        }
+      }
+      @media screen and (max-width: 600px) {
+        #projects li {
+            flex-basis: calc(100% - 40px); /* One item per row with margin */
+        }
+      }
       
