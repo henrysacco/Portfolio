@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;  
   }
-  nav { 
+  nav { /* Sets the Style of the Nav Bar */
     display: flex;
     justify-content: space-around; 
     width: 100%; 
